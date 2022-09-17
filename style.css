@@ -1,0 +1,12 @@
+body {
+    display: flex;
+}
+.left_side {
+    background-color: lightblue;
+    min-width: 30vw;
+}
+
+.right_side {
+    background-color: lightgreen;
+    min-width: 70vw;
+}
