@@ -13,7 +13,7 @@
     </div>
     <div class="right_side">
         <div class="content">
-            <div class="names">
+            <fieldset class="names">
                 <div class="first_name">
                     <label for="first_name">First Name</label>
                     <input type="text" id="first_name" name="first_name" placeholder="John" required>
@@ -22,8 +22,8 @@
                     <label for="sur_name">Last Name</label>
                     <input type="text" id="sur_name" name="sur_name" placeholder="Doe" required>
                 </div>
-            </div>
-            <div class="contact">
+            </fieldset>
+            <fieldset class="contacts">
                 <div class="email">
                     <label for="email">E-Mail</label>
                     <input id="email" name="email" type="email" placeholder="example@example.com" required>
@@ -32,8 +32,8 @@
                     <label for="phone_number">Tel</label>
                     <input type="tel" id="phone_number" name="phone_number" type="text" placeholder="+41123456789" required>
                 </div>
-            </div>
-            <div class="pwd">
+            </fieldset>
+            <fieldset class="pwd">
                 <div class="password">
                     <label for="pwd">Password</label>
                     <input id="password" name="password" type="password" required>
@@ -42,9 +42,15 @@
                     <label for="password_confirm">Password Confirm</label>
                     <input id="password_confirm" name="password_confirm" type="password" required>
                 </div>
-            </div>
-            <input type="submit" value="Sign up">
-            <p>Already have an account? <a href="link">Log in</a></p>
+            </fieldset>
+            <fieldset class="others">
+                <div class="sign_up">
+                    <button type="submit" value="Sign up">Create Account</button>
+                </div>
+                <div class="log_in">
+                    <p>Already have an account? <a href="link">Log in</a></p>
+                </div>
+            </fieldset>
         </div>
         </div>
     </div>
