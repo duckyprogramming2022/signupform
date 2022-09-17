@@ -4,9 +4,11 @@ body {
 .left_side {
     background-color: lightblue;
     min-width: 30vw;
+    height: 100vw;
 }
 
 .right_side {
-    background-color: lightgreen;
+    background-color: lightsalmon;
     min-width: 70vw;
+    height: 100vw;
 }
